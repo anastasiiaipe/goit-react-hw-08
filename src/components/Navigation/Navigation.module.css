@@ -1,0 +1,32 @@
+.navList {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.link {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid rgb(128, 0, 255);
+  border-radius: 0.6em;
+  color: rgb(128, 0, 255);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+
+  padding: 8px 14px;
+  width: 100px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  &:hover,
+  &:active {
+    color: #090909;
+    border-color: #090909;
+    outline: 0;
+  }
+}

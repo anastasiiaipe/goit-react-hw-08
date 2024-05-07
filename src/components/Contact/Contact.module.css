@@ -1,0 +1,18 @@
+.contactName {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 6px;
+}
+
+.contactNumber {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-left: 2px;
+}
+
+.btnDelete {
+  padding: 4px;
+  height: min-content;
+}
