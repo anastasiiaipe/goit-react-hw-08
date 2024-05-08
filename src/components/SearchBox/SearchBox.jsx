@@ -15,7 +15,7 @@ const SearchBox = () => {
 
   return (
     <>
-      <p className={style.searchText}>Find contacts by name </p>
+      <p className={style.searchText}>Find contacts by name or phone number</p>
       <input
         type="text"
         name="search"
